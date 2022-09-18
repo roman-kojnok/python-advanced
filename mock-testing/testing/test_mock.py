@@ -59,3 +59,5 @@ class TestResponse4(TestBase):
             response = self.client.get(url_for('sport'))
             self.assertIn(b'Football', response.data)"""
 
+# pytest --cov=application --cov-report=term-missing
+
