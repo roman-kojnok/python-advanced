@@ -1,0 +1,4 @@
+mkdir -p ~/projects/http-requests-tutorial/ && cd $_
+python3 -m venv venv
+source ./venv/bin/activate
+pip3 install requests
